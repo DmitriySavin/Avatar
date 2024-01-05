@@ -10,6 +10,12 @@ body {
   font-family: "Inter";
   margin: 0;
 }
+:root {
+  --main-color: #141414;
+  --accent-color: #26C7EA;
+  --add-color: #0A3853;
+  --white: #fff;
+}
 ul {
   list-style: none;
   margin-top: 0;
@@ -110,7 +116,7 @@ display: flex;
 .hero-section {
   background-image: url(../image/hero-section-bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   height: 740px;
   margin-bottom: 75px;
   padding-top: 180px;
@@ -124,7 +130,7 @@ display: flex;
 }
 .hero-section-img {
   width: 152px;
-  height: 40px;
+  height: 40px; 
 }
 .hero-section-button {
   width: 199px;
@@ -143,6 +149,54 @@ display: flex;
 .hero-list-img {
     width: 30px,34px,50px;
         height: 30px;
+}
+.important-title {
+  color: #0A3853;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.important-desc {
+color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 8px;
+}
+.important-img {
+width: 400px;
+  height: 120px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.trailer {
+  background-image: url(../image/trailer-bg.jpg);
+  background-repeat: no-repeat;
+    background-size: 100%;  
+  height: 741px;
+  flex-shrink: 0;
+
+}
+.trailer-btn {
+  width: 260px;
+    height: 80px;
+    border-radius: 45px 0px;
+      border: 3px solid #26C7EA;
+      background: #0B0E66;
+      color: #26C7EA;
+        font-family: HeadlandOne;
+        font-size: 24px;
+        line-height: normal;
+        display: block;
+        margin: 0 auto;
 }
 .logo-footer {
   width: 186px;
