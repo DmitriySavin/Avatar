@@ -12,8 +12,8 @@ body {
 }
 :root {
   --main-color: #141414;
-  --accent-color: #26C7EA;
-  --add-color: #0A3853;
+  --accent-color: #26c7ea;
+  --add-color: #0a3853;
   --white: #fff;
 }
 ul {
@@ -116,7 +116,7 @@ display: flex;
 .hero-section {
   background-image: url(../image/hero-section-bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   height: 740px;
   margin-bottom: 75px;
   padding-top: 180px;
@@ -130,7 +130,7 @@ display: flex;
 }
 .hero-section-img {
   width: 152px;
-  height: 40px; 
+  height: 40px;
 }
 .hero-section-button {
   width: 199px;
@@ -147,22 +147,19 @@ display: flex;
   text-align: center;
 }
 .hero-list-img {
-    width: 30px,34px,50px;
-        height: 30px;
+  width: 30px, 34px, 50px;
+  height: 30px;
 }
 .important-title {
-  color: #0A3853;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    padding-bottom: 16px;
+  color: var(--add-color);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 16px;
 }
 .important-desc {
-color: #000;
+  color: #000;
   text-align: center;
   font-family: Inter;
   font-size: 24px;
@@ -172,7 +169,7 @@ color: #000;
   padding-bottom: 8px;
 }
 .important-img {
-width: 400px;
+  width: 400px;
   height: 120px;
   margin: 0 auto;
   padding-bottom: 10px;
@@ -180,33 +177,97 @@ width: 400px;
 .trailer {
   background-image: url(../image/trailer-bg.jpg);
   background-repeat: no-repeat;
-    background-size: 100%;  
+  background-size: 100%;
   height: 741px;
   flex-shrink: 0;
-
 }
 .trailer-btn {
   width: 260px;
-    height: 80px;
-    border-radius: 45px 0px;
-      border: 3px solid #26C7EA;
-      background: #0B0E66;
-      color: #26C7EA;
-        font-family: HeadlandOne;
-        font-size: 24px;
-        line-height: normal;
-        display: block;
-        margin: 0 auto;
+  height: 80px;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
+  color: #26c7ea;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  display: block;
+  margin: 0 auto;
 }
 .language {
-    background-image: url(../image/language-bg.jpg);
-      background-repeat: no-repeat;
-      background-size: 100%;
-      height: 741px;
-      flex-shrink: 0;
+  background-image: url(../image/language-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 741px;
+}
+.language-title {
+  text-align: center;
+  font-family: HeadlandOne;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 58px;
+  padding-bottom: 45px;
+}
+.language-subtitle {
+  text-align: center;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 36px;
+  /* 100% */
+}
+.language-img {
+  width: 152px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.language-info {
+  color: #000;
+  text-align: center;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 40px;
+  /* 100% */
+}
+.language-list {
+  gap: 35px;
+  row-gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.langiage-card {
+  width: 320px;
+  height: 240px;
+  background: rgba(255, 255, 255, 0.7);
+  flex-basis: calc((100% - 72px) / 3);
+  margin: 0 auto;
+}
+.footer {
+  background-image: url(../image/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 223px;
 }
 .logo-footer {
-  width: 186px;
-  height: 72px;
-  flex-shrink: 0;
+  width: 183px;
+  height: 70px;
+}
+.footer-list-info {
+  color: var(--white);
+  font-size: 20px;
+  line-height: normal;
+}
+]
+.phone {
+  color: var(--white);
+  text-align: justify;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
