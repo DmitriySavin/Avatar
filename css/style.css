@@ -50,22 +50,14 @@ img {
     ),
     url(../image/header-bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  padding-top: 39px;
+  padding-bottom: 39px;
   border-bottom: 3px solid #fff;
   height: 150px;
-  /* background: rgba(43, 74, 97, 0.87); */
+  /* display: flex;
+  justify-content: space-between; */
 }
-/* .header-position {
-    display: flex;
-    justify-content: center;
-} */
-
-/* .flex-header {
-    display: flex;
-} */
-/* .navigation {  
-display: flex;
-} */
 .navigation-list {
   display: flex;
 }
@@ -178,6 +170,8 @@ display: flex;
   background-size: 100%;
   height: 741px;
   flex-shrink: 0;
+  padding-top: 330px;
+  padding-bottom: 330px;
 }
 .trailer-btn {
   width: 260px;
@@ -251,11 +245,17 @@ display: flex;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 223px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .logo-footer {
   width: 183px;
   height: 70px;
 }
+/* .logo-footer-line {
+  margin-left: 80px;
+  display: block;
+} */
 .footer-list-info {
   color: var(--white);
   font-size: 20px;
