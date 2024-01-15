@@ -129,10 +129,11 @@ img {
   width: 152px;
   height: 40px;
 }
+
 .hero-section-button {
-  width: 199px;
+width: 260px;
+  height: 80px;
   color: #26c7ea;
-  text-align: center;
   font-family: HeadlandOne;
   font-size: 24px;
   font-style: normal;
@@ -143,10 +144,15 @@ img {
   background: #0b0e66;
   text-align: center;
   margin-top: 42px;
+  padding: 10px 30px;
 }
 .hero-list-img {
   width: 30px, 34px, 50px;
   height: 30px;
+}
+.hero-list-item {
+  margin-left: 1186px;
+  margin-bottom: 25px;
 }
 .important-title {
   color: var(--add-color);
@@ -256,16 +262,23 @@ img {
   height: 223px;
   padding-top: 35px;
   padding-bottom: 35px;
+  display: flex;
+  align-items: center;
 }
 .logo-footer {
   width: 183px;
   height: 70px;
 }
 .logo-footer-line {
-  width: 2px;
-    height: 153px;
-  /* margin-left: 80px;
-  display: block; */
+ margin-left: 80px;
+}
+.footer-logo-line {
+  display: flex;
+      padding-top: 35px;
+        padding-bottom: 35px;
+}
+.footer-list {
+  display: flex;
 }
 .footer-list-info {
   color: var(--white);
