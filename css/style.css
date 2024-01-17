@@ -269,6 +269,9 @@ width: 260px;
   width: 183px;
   height: 70px;
 }
+.footer-div {
+  display: flex;
+}
 .logo-footer-line {
  margin-left: 80px;
 }
@@ -279,6 +282,7 @@ width: 260px;
 }
 .footer-list {
   display: flex;
+  
 }
 .footer-list-info {
   color: var(--white);
