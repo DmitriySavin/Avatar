@@ -98,12 +98,8 @@ img {
 .switch {
   width: 36px;
   height: 20px;
-  color: #fff;
-  text-align: center;
+  color: var(--white);
   font-family: Hammersmith One;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
   display: flex;
 }
@@ -268,17 +264,22 @@ width: 260px;
 .logo-footer {
   width: 183px;
   height: 70px;
+      margin-top: 77px;
+        margin-bottom: 77px;
 }
 .footer-div {
   display: flex;
 }
 .logo-footer-line {
  margin-left: 80px;
+width: 2px;
+  height: 153px;
+      margin-top: 35px;
+        margin-bottom: 35px;
 }
 .footer-logo-line {
   display: flex;
-      padding-top: 35px;
-        padding-bottom: 35px;
+      
 }
 .footer-list {
   display: flex;
@@ -289,6 +290,10 @@ width: 260px;
   font-size: 20px;
   line-height: normal;
 }
+.footer-list-item {
+  padding-top: 80px;
+   
+}
 .phone {
   color: var(--white);
   text-align: justify;
@@ -297,4 +302,16 @@ width: 260px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.footer-info-avatar {
+  color: var(--white);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 181px;
+  /* padding-bottom: 25px;
+    padding-right: 414px; */
 }
