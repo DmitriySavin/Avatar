@@ -84,7 +84,7 @@ img {
   flex-shrink: 0;
   color: #26c6ea;
   text-align: justify;
-  font-family: HeadlandOne, snt-serif;
+  font-family: HeadlandOne;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -109,6 +109,7 @@ img {
 .hero-section {
   background-image: url(../image/hero-section-bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 740px;
   width: 1440px;
   margin-bottom: 75px;
@@ -129,12 +130,8 @@ img {
 .hero-section-button {
 width: 260px;
   height: 80px;
-  color: #26c7ea;
-  font-family: HeadlandOne;
+  color:var(--accent-color);
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   border-radius: 45px 0px;
   border: 3px solid #26c7ea;
   background: #0b0e66;
@@ -142,13 +139,29 @@ width: 260px;
   margin-top: 42px;
   padding: 10px 30px;
 }
-.hero-list-img {
+/* .hero-list-img {
   width: 30px, 34px, 50px;
   height: 30px;
-}
-.hero-list-item {
-  margin-left: 1186px;
+} */
+.hero-list-item1 {
+  margin-left: 1204px;
   margin-bottom: 25px;
+  width: 30px;
+    height: 30px;
+}
+.hero-list-item2 {
+  margin-left: 1204px;
+  margin-bottom: 25px;
+  width: 34px;
+    height: 30px;
+}
+.hero-list-item3 {
+  margin-left: 1186px;
+  width: 50px;
+    height: 30px;
+}
+.hero-img {
+
 }
 .important-title {
   color: var(--add-color);
