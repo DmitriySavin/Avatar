@@ -55,6 +55,7 @@ img {
   padding-bottom: 39px;
   border-bottom: 3px solid #fff;
   height: 150px;
+  margin: 0 auto;
   /* display: flex;
   justify-content: space-between; */
 }
@@ -114,6 +115,11 @@ img {
   width: 1440px;
   margin-bottom: 75px;
   padding-top: 180px;
+  margin: 0 auto;
+}
+.hero-position {
+  display: flex;
+  justify-content: space-between;
 }
 .hero-section-item {
   color: #fff;
@@ -139,29 +145,12 @@ width: 260px;
   margin-top: 42px;
   padding: 10px 30px;
 }
-/* .hero-list-img {
-  width: 30px, 34px, 50px;
-  height: 30px;
-} */
-.hero-list-item1 {
-  margin-left: 1204px;
-  margin-bottom: 25px;
-  width: 30px;
-    height: 30px;
-}
-.hero-list-item2 {
-  margin-left: 1204px;
-  margin-bottom: 25px;
-  width: 34px;
-    height: 30px;
-}
-.hero-list-item3 {
-  margin-left: 1186px;
-  width: 50px;
-    height: 30px;
-}
-.hero-img {
-
+.hero-list-img {
+  display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: flex-end;
+        justify-content: center;
 }
 .important-title {
   color: var(--add-color);
@@ -196,6 +185,7 @@ width: 260px;
   padding-top: 330px;
   padding-bottom: 330px;
   margin-bottom: 75px;
+  margin: 0 auto;
 }
 .trailer-btn {
   width: 260px;
@@ -214,6 +204,7 @@ width: 260px;
   background-repeat: no-repeat;
   height: 741px;
   width: 1440px;
+  margin: 0 auto;
 }
 .language-title {
   text-align: center;
@@ -273,6 +264,7 @@ width: 260px;
   padding-bottom: 35px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 .logo-footer {
   width: 183px;
