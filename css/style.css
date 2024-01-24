@@ -78,6 +78,9 @@ img {
   line-height: normal;
       flex-basis: calc((100% - 76px) / 3);
 }
+.nav-item:hover {
+  color: var(--accent-color);
+}
 
 .nav-button {
   width: 141px;
