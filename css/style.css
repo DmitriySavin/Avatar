@@ -59,6 +59,12 @@ img {
   /* display: flex;
   justify-content: space-between; */
 }
+.header-position {
+  display: flex;
+  align-items: center;
+  padding-left: 205px;
+  padding-right: 50px;
+}
 .navigation-list {
   display: flex;
   align-items: center;
