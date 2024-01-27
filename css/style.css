@@ -392,12 +392,12 @@ width: 260px;
       margin-top: 77px;
         margin-bottom: 77px;
 }
-.logo-footer::after {
+/* .logo-footer::after {
   content: '';
   color: var(--white);
   width: 2px;
     height: 153px;
-}
+} */
 .footer-div {
   display: flex;
 }
@@ -413,6 +413,12 @@ width: 260px;
   color: var(--white);
   font-size: 20px;
   line-height: normal;
+}
+.footer-list-info::before {
+  content: '';
+    color: var(--white);
+    width: 2px;
+    height: 153px;
 }
 .footer-list-item {
   padding-top: 80px;
