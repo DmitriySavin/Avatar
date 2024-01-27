@@ -386,7 +386,8 @@ width: 260px;
       margin-top: 77px;
         margin-bottom: 77px;
 }
-.logo-footer:after {
+.logo-footer::after {
+  content: '';
   color: var(--white);
   width: 2px;
     height: 153px;
@@ -394,7 +395,6 @@ width: 260px;
 .footer-div {
   display: flex;
 }
-
 .footer-logo-line {
   display: flex;
       
