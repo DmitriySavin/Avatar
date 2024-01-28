@@ -65,10 +65,14 @@ img {
   padding-left: 205px;
   padding-right: 50px;
 }
+.logo-header {
+  margin-top: 39px;
+    margin-bottom: 39px;
+}
 .navigation-list {
   display: flex;
   align-items: center;
-  padding-left: 168px;
+  margin-left: 168px;
   column-gap: 38px;
 }
 .flex-nav {
@@ -93,7 +97,6 @@ img {
   height: 41.694px;
   flex-shrink: 0;
   color: #26c6ea;
-  text-align: justify;
   font-family: HeadlandOne;
   font-size: 20px;
   font-style: normal;
@@ -104,19 +107,24 @@ img {
   border: 3px solid #26c7ea;
   background: #0b0e66;
   margin-left: 212px;
+  display: block;
+  margin-top: 54px;
+  margin-bottom: 54px;
 }
 .header-btn-div {
   display: flex;
       align-items: center;
 }
+.switcher {
+  margin: 0;
+}
 .switch {
-  width: 36px;
-  height: 20px;
   color: var(--white);
   font-family: Hammersmith One;
   line-height: normal;
   display: flex;
       align-items: center;
+      margin-left: 35px;
 }
 .header-switch {
   display: flex;
@@ -414,12 +422,12 @@ width: 260px;
   font-size: 20px;
   line-height: normal;
 }
-.footer-list-info::before {
+/* .footer-list-info::before {
   content: '';
     color: var(--white);
     width: 2px;
     height: 153px;
-}
+} */
 .footer-list-item {
   padding-top: 80px;
    
