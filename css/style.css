@@ -257,6 +257,7 @@ img {
 .hero-section-img {
   width: 152px;
   height: 40px;
+  margin: 0 auto;
 }
 
 .hero-section-button {
