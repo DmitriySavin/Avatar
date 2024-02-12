@@ -259,7 +259,18 @@ img {
   height: 40px;
   margin: 0 auto;
 }
+.hero-icon {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
 
+}
+.hero-icon:hover {
+  fill: blue;
+}
+.youtube {
+  width: 50px;
+}
 .hero-section-button {
   width: 260px;
   height: 80px;
