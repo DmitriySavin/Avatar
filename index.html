@@ -31,7 +31,7 @@
             <li><a href="#" class="nav-item">Про нас</a></li>
             <li><a href="#" class="nav-item">Контакти</a></li>
           </ul>
-          <button type="button" class="nav-button">Увійти</button>
+          <button type="button" class="nav-button" >Увійти</button>
         </nav>
         <!-- Свитч -->
       </div>
@@ -64,14 +64,14 @@
               Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
               залишається, щоб стати частиною Народу. Борись разом з нами!
             </p>
-            <button type="button" class="hero-section-button">
+            <button type="button" class="hero-section-button" >
               Приєднатися до клану
             </button>
           </div>
           <ul class="hero-list-img">
             <li>
               <svg class="hero-icon">
-                <use href="./sprite/symbol-defs.svg#icon-inst" ></use>
+                <use href="./sprite/symbol-defs.svg#icon-inst"></use>
               </svg>
               <!-- <img
                 src="image/hero-section-inst.png"
@@ -90,7 +90,7 @@
               /> -->
             </li>
             <li>
-              <svg class="hero-icon youtube"> 
+              <svg class="hero-icon youtube">
                 <use href="./sprite/symbol-defs.svg#icon-youtube"></use>
               </svg>
               <!-- <img
@@ -197,14 +197,22 @@
           <ul class="footer-list">
             <li class="footer-item">
               <h3 class="footer-item-title">Q&A E-mail</h3>
-              <img src="image/footer-line.png" alt="footer-line" class="footer-line"/>
+              <img
+                src="image/footer-line.png"
+                alt="footer-line"
+                class="footer-line"
+              />
               <a href="avatartwowqa@gmail.com" class="phone"
                 >avatartwowqa@gmail.com</a
               >
             </li>
             <li class="footer-item coop-title">
-              <h3 class="footer-item-title ">Cooperation E-mail</h3>
-              <img src="image/footer-line2.png" alt="footer-line"  class="footer-line"/>
+              <h3 class="footer-item-title">Cooperation E-mail</h3>
+              <img
+                src="image/footer-line2.png"
+                alt="footer-line"
+                class="footer-line"
+              />
               <a href="avatartwowcoop@gmail.com" class="phone"
                 >avatartwowcoop@gmail.com</a
               >
@@ -217,13 +225,24 @@
       </div>
     </footer>
     <!-- модальное окно -->
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-svg" width="14" height="14">
-            <use href="./sprite/symbol-defs-btn.svg#icon-close-btn"></use> 
+            <use href="./sprite/symbol-defs-btn.svg#icon-close-btn"></use>
           </svg>
         </button>
+        <form action="" class="">
+          <div class="modal-form-field">
+            <label for="name" class="modal-form-field-label">Ім'я</label>
+            <input type="text" id="name" class="modal-form-field-input" placeholder="Іван Петров"/>
+          </div>
+          <div class="modal-form-field">
+            <label for="email" class="modal-form-field-label">Email</label>
+            <input type="text" id="email" class="modal-form-field-input" placeholder="IvanPetrov@gamil.com" />
+          </div>
+          <button type="button" class="modal-btn">Приєднатися до клану</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

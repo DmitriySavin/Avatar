@@ -484,17 +484,20 @@ bottom: 0;
 right: 0;
 z-index: 1;
 background-color: var(--accent-color);
-
+}
+.backdrop.is-hidden {
+  opacity: 0;
 }
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 113px 80px 22px 80px;
 
   width: 600px;
   height: 405px;
-  outline: 2px red solid;
+
   background-color: var(--white);
   background-image: url(../image/bg-modal.jpg);
   background-position: center;
@@ -506,4 +509,43 @@ background-color: var(--accent-color);
   right: 16px;
   background-color: transparent;
   border: 0;
+}
+.modal-form-field {
+display: flex;
+flex-direction: column;
+}
+.modal-form-field +.modal-form-field {
+  margin-top: 15px;
+}
+.modal-form-field-label {
+font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: justify;
+  color: #0b0e66;
+      margin-bottom: 2px;
+}
+.modal-form-field-input {
+  border: 2px solid #0b0e66;
+    width: 440px;
+    height: 40px;
+    padding-left: 10px;
+}
+.modal-form-field-input::placeholder {
+  color: #0b0e66;
+}
+.modal-btn {
+  width: 260px;
+    height: 80px;
+    color: #26c6ea;
+  font-family: var(--font-family);
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    border-radius: 45px 0px;
+    border: 3px solid #26c7ea;
+    background: #0b0e66;
+    display: block;
+   margin: 0 auto;
+   margin-top: 35px;
 }
